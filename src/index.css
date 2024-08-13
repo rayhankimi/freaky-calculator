@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+.title{
+    font-family: 'Ubuntu', serif;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 0.5em;
+    color: #772E25;
+}
+* {
+    box-sizing: border-box;
+}
+
+.calculator{
+    max-width:320px;
+    background: #eee;
+    margin: 0 auto;
+}
+.calc-buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    border:0;
+}
+.calc-numbers{
+    font-family: 'Space Mono', serif;
+    background: whitesmoke;
+    color: #C44536;
+    font-size: 2em;
+    border: 1px solid black;
+    padding: 0.3em;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+}
+.span-2{
+    grid-column: span 2;
+}
+.span-3{
+    grid-column: span 3;
+}
+.btn{
+    font-size:1em;
+    height: 65px;
+    border:1px solid black;
+    background-color: #EDDDD4;
+}
+.btn:hover{
+    background: #fff;
+    color: black;
+}
+.maroon{
+    background-color:#772E25;
+}
+.dark-green{
+    background-color:#283D3B;
+    color: white;
+}
+.teal{
+    background-color: #197278;
+}
+.banned {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: black;
+    color: #772E25;
+    text-align: center;
+}
